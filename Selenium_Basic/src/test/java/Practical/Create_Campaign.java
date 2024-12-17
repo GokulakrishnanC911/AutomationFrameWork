@@ -54,5 +54,6 @@ public class Create_Campaign extends BaseClass {
         System.out.println("Campaign page is created");
 
         h.logoutApp();
+	    //pull back
     }
 }
