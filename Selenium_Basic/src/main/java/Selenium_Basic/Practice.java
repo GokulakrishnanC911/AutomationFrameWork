@@ -12,24 +12,12 @@ import org.openqa.selenium.support.ui.Select;
 public class Practice { 
 	public static void main(String[] args)
 	{
-		int [] a={10, 20, 30, 40, 80, 45, 89, 32, 85};
-		int fmax=0;
-		int smax=0;
-		for(int i=0;i<a.length;i++)
-		{
-			if(a[i]>fmax)
-			{
-				smax=fmax;
-				fmax=a[i];
-			}
-			else if(a[i]>smax)
-			{
-				smax=a[i];
-			}
-		}
-		System.out.println(smax);
-    }
-
+		String s = "Hello";
+        for (int i = s.length() - 1; i >= 0; i--)
+      { 
+            System.out.println(s.charAt(i)); 
+	}
+	}
 }
 
 
